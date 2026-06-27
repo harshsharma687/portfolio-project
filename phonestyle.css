@@ -1,0 +1,148 @@
+   
+       *{
+        margin: 0;
+        padding: 0;
+        
+       }  
+
+        .landingpage{
+             
+                
+                background-color: purple;
+                color: white;
+                height:60px;
+                 display:flex;
+                align-items: center;
+                justify-content: space-evenly; 
+
+                
+        }
+     .logo{
+        background-image: url("https://tse1.mm.bing.net/th/id/OIP.Hp6ReYJ6YlWL38BZ8SfZYQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3");
+        height: 60px;
+         width: 60px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+
+     }
+     .shop-name{
+      font-size: 25px;
+      color:black;
+      margin-left: 5px;
+      font-weight: bolder;
+      width: 700px;
+      cursor: pointer;
+     }
+
+     .section{
+        cursor: pointer;
+        text-decoration: underline;
+     }
+
+     .landing-content{
+        height: 1000px;
+        background-color: rgb(138, 115, 138);
+        align-items: center;
+        justify-content: center;
+     }
+     .shop{
+        text-align: center;
+     }
+/* 
+     .shop-logo{
+        display: flex;
+        justify-content: end;
+        
+        
+        
+     }
+    
+     .logo-shop{
+        height: 200px;
+        width: 200px;
+        border-radius:50%;
+        background-image: url("https://tse1.mm.bing.net/th/id/OIP.Hp6ReYJ6YlWL38BZ8SfZYQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3");
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: inline;
+
+     }
+     */
+
+      ul {
+        list-style-type: upper-alpha;
+     }
+     .detail{
+        margin-left: 30px;
+        list-style: square;
+     }
+
+
+
+    
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(138, 115, 138);
+}
+
+.box{
+    border:2px solid black;
+    height: 400px;
+    width:23%;
+    padding:20px 0px 15px;
+    background-color: white;
+    margin-top: 30px;
+
+}
+
+.box-img{
+    height:300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-position: center;
+
+
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+
+        .button-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+     .button{
+        background-color:purple;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 50px;
+        border: none;
+        cursor: pointer;
+        margin: 20px;
+ 
+     }
+     button:hover{
+        background-color: white;
+        color: rgb(153, 111, 153);
+        border: 3px solid purple;
+        transition-duration: 1s;
+        transition: ease-in-out;
+     }
+
+
+        
+
+
+
+        
+

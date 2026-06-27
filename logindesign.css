@@ -1,0 +1,132 @@
+body{
+    background-color:rgb(238, 164, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+    width: 100%px;
+    height: 450px;
+    background: linear-gradient(135deg,rgb(196, 74, 169), rgb(141, 65, 128));
+    margin: 100px;
+    padding: 10px;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+    
+}
+
+
+
+.start{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.para{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 25px;
+}
+
+.form-control{
+    width: 90%;
+    padding: 10px;
+    margin: 5px 1px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.form-control:hover{
+    border:2px solid #d61981;
+    
+}
+.form-control:focus{
+    border:3px solid #d61586; 
+    outline: none;
+} 
+
+.inform{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+}
+
+.check{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: start;
+}
+
+.forgot{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: end;
+    margin-top: 10px;
+    margin-left: 50px;  
+}
+
+p a{
+    color: white;
+    text-decoration: none;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sign-in{
+    width: 90%;
+    padding: 10px;
+    margin: 20px 1px;
+    border: none;
+    border-radius: 10px;
+    background-color: #8d4180;
+    color: white;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(196, 74, 169);
+     transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function:cubic;
+    transition-delay: 2s;
+    font-size:18px; 
+    /* transform: rotate(180deg); */
+
+}
+.sign-in:hover{
+    background-color: #91326c;
+    border:3px solid #99226b;
+    opacity: 0.9;
+    box-shadow: 0 0 22px rgba(0,0,0,0.3);
+    
+    
+    
+          
+}
+
+.end{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+span a{
+    color: white;
+    text-decoration: none;
+}
+
+ /* #1e3c72, #2a5290, #6a11cb */
